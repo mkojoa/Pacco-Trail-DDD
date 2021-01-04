@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Convey.CQRS.Commands</Description>
+    <Authors>DevMentors.io</Authors>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <LangVersion>8</LangVersion>
+    <AssemblyName>Convey.CQRS.Commands</AssemblyName>
+    <Title>Convey.CQRS.Commands</Title>
+    <PackageId>Convey.CQRS.Commands</PackageId>
+    <PackageTags>Convey.CQRS.Commands</PackageTags>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Convey\src\Convey\Convey.csproj" />
+  </ItemGroup>
+
+</Project>

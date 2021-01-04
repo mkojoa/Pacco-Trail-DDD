@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Convey.MessageBrokers.CQRS</Description>
+    <Authors>DevMentors.io</Authors>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <LangVersion>8</LangVersion>
+    <AssemblyName>Convey.MessageBrokers.CQRS</AssemblyName>
+    <Title>Convey.MessageBrokers.CQRS</Title>
+    <PackageId>Convey.MessageBrokers.CQRS</PackageId>
+    <PackageTags>Convey.MessageBrokers.CQRS</PackageTags>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Convey.MessageBrokers\src\Convey.MessageBrokers\Convey.MessageBrokers.csproj" />
+    <ProjectReference Include="..\..\..\Convey.CQRS.Commands\src\Convey.CQRS.Commands\Convey.CQRS.Commands.csproj" />
+    <ProjectReference Include="..\..\..\Convey.CQRS.Events\src\Convey.CQRS.Events\Convey.CQRS.Events.csproj" />
+  </ItemGroup>
+  
+</Project>

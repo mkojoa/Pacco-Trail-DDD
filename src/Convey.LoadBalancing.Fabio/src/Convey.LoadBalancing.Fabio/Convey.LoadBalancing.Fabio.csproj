@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Convey.LoadBalancing.Fabio</Description>
+    <Authors>DevMentors.io</Authors>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <LangVersion>8</LangVersion>
+    <AssemblyName>Convey.LoadBalancing.Fabio</AssemblyName>
+    <Title>Convey.LoadBalancing.Fabio</Title>
+    <PackageId>Convey.LoadBalancing.Fabio</PackageId>
+    <PackageTags>Convey.LoadBalancing.Fabio</PackageTags>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Convey\src\Convey\Convey.csproj" />
+    <ProjectReference Include="..\..\..\Convey.HTTP\src\Convey.HTTP\Convey.HTTP.csproj" />
+    <ProjectReference Include="..\..\..\Convey.Discovery.Consul\src\Convey.Discovery.Consul\Convey.Discovery.Consul.csproj" />
+  </ItemGroup>
+  
+</Project>

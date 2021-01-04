@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Convey.WebApi</Description>
+    <Authors>DevMentors.io</Authors>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <LangVersion>preview</LangVersion>
+    <AssemblyName>Convey.WebApi</AssemblyName>
+    <Title>Convey.WebApi</Title>
+    <PackageId>Convey.WebApi</PackageId>
+    <PackageTags>Convey.WebApi</PackageTags>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Convey\src\Convey\Convey.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Open.Serialization.Json.Newtonsoft" Version="2.3.1" />
+    <PackageReference Include="Open.Serialization.Json.System" Version="2.3.1" />
+    <PackageReference Include="Open.Serialization.Json.Utf8Json" Version="2.3.1" />
+  </ItemGroup>
+
+</Project>

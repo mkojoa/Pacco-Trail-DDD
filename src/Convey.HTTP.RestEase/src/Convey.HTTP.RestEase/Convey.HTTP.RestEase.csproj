@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Convey.HTTP.RestEase</Description>
+    <Authors>DevMentors.io</Authors>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <LangVersion>Latest</LangVersion>
+    <AssemblyName>Convey.HTTP.RestEase</AssemblyName>
+    <Title>Convey.HTTP.RestEase</Title>
+    <PackageId>Convey.HTTP.RestEase</PackageId>
+    <PackageTags>Convey.HTTP.RestEase</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Convey\src\Convey\Convey.csproj" />
+    <ProjectReference Include="..\..\..\Convey.HTTP\src\Convey.HTTP\Convey.HTTP.csproj" />
+    <ProjectReference Include="..\..\..\Convey.Discovery.Consul\src\Convey.Discovery.Consul\Convey.Discovery.Consul.csproj" />
+    <ProjectReference Include="..\..\..\Convey.LoadBalancing.Fabio\src\Convey.LoadBalancing.Fabio\Convey.LoadBalancing.Fabio.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Http" Version="3.1.3" />
+    <PackageReference Include="RestEase" Version="1.4.12" />
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+  </ItemGroup>
+</Project>

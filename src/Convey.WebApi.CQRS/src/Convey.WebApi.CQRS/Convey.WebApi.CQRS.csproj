@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Convey.WebApi.CQRS</Description>
+    <Authors>DevMentors.io</Authors>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <LangVersion>preview</LangVersion>
+    <AssemblyName>Convey.WebApi.CQRS</AssemblyName>
+    <Title>Convey.WebApi.CQRS</Title>
+    <PackageId>Convey.WebApi.CQRS</PackageId>
+    <PackageTags>Convey.WebApi.CQRS</PackageTags>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Convey.CQRS.Commands\src\Convey.CQRS.Commands\Convey.CQRS.Commands.csproj" />
+    <ProjectReference Include="..\..\..\Convey.CQRS.Events\src\Convey.CQRS.Events\Convey.CQRS.Events.csproj" />
+    <ProjectReference Include="..\..\..\Convey.CQRS.Queries\src\Convey.CQRS.Queries\Convey.CQRS.Queries.csproj" />
+    <ProjectReference Include="..\..\..\Convey.WebApi\src\Convey.WebApi\Convey.WebApi.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>
